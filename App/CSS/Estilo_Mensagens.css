@@ -1,0 +1,7 @@
+.mensagem{
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 99;
+    padding: 0
+}

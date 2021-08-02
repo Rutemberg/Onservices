@@ -1,0 +1,100 @@
+.shadow-1{
+    box-shadow: 0 1px 3px rgba(0,0,0,.05), 0 1px 3px rgba(0,0,0,.05);
+}
+.shadow-2{
+    box-shadow: 0 3px 9px rgba(0,0,0,.05), 0 3px 9px rgba(0,0,0,.05);
+}
+.shadow-3{
+    box-shadow: 0 10px 30px rgba(0,0,0,.05), 0 6px 18px rgba(0,0,0,.05);
+}
+.shadow-4{
+    box-shadow: 0 14px 42px rgba(0,0,0,.05), 0 10px 30px rgba(0,0,0,.05);
+}
+.shadow-5{
+    box-shadow: 0 19px 57px rgba(0,0,0,.05), 0 15px 45px rgba(0,0,0,.05);
+}
+.Objecthover{
+    -webkit-transition:  cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -moz-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -ms-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -o-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    transition: cubic-bezier(.500, 1.000, .500, 1.000) all .9s; 
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    font-weight: 500;
+
+}
+.Objecthover:hover{
+    -webkit-transition:  cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -moz-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -ms-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -o-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    transition: cubic-bezier(.500, 1.000, .500, 1.000) all .9s; 
+    border: 2px solid #d9d9d9;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);
+    cursor: pointer;
+    color: black
+}
+.Objecthover:after {
+    content: "";
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    display: block;
+    color: black;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.Objecthover:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.bloquear{
+    pointer-events: none;
+}
+
+.bordereffect{
+    -webkit-transition:  cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -moz-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -ms-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    -o-transition: cubic-bezier(.190, 1.000, .500, 1.000) all .9s;
+    transition: cubic-bezier(.500, 1.000, .500, 1.000) all .9s; 
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden
+}
+.bordereffect:hover{
+    border: 2px solid white;
+}
+.bordereffect:after {
+    content: "";
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+    display: block;
+    color: black;
+    position: absolute;
+    left: 0;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.bordereffect:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+/*
+input[type='submit']:hover{
+    
+}*/

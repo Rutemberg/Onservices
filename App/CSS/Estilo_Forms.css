@@ -1,0 +1,288 @@
+label{
+    display: block;
+    height: 25px;
+    width: max-content;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.file{
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    margin: 0 auto !important;
+    margin-top: 20px !important;
+}
+
+textarea{
+    height: 160px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: none;
+    outline-color: black;
+    font-family: "Segoe UI"; 
+    font-weight: 300;
+    font-size: 15px
+}
+
+input[type=date]::-webkit-clear-button,
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-calendar-picker-indicator {
+    display: none;
+}
+input[type=time]::-webkit-clear-button,
+input[type=time]::-webkit-inner-spin-button,
+input[type=time]::-webkit-time-picker-indicator {
+    display: none;
+}
+
+.login{
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.login-img{
+    height: 200px;
+    margin-bottom: 20px;
+}
+.login-img-usuariocadastrado{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    overflow: hidden
+}
+.login-input{
+    background: rgba(255,255,255,.6);
+    width: 250px;
+    text-align: center;
+    margin: 4px;
+}
+.senha{
+    margin-bottom: 20px
+}
+input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px #f9fbfd inset !important;
+    -webkit-text-fill-color: #86878A;
+}
+.login-email:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px #f9fbfd inset !important;
+    -webkit-text-fill-color: #86878A;
+}
+.input-spacing{
+    letter-spacing: 5px;
+    box-sizing: border-box;
+}
+.input-button{
+    background: black;
+    border: none;
+    height: 50px;
+    color: white;
+    background: #2B2B2B;    
+    margin: 20px;
+    /*    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(255,255,255,0.3) 100%);*/
+    width: 125px;
+    cursor: pointer
+}
+.form-back{
+    width: 125px;
+    height: 50px;
+    border: 2px solid transparent;
+    font-size: 18px;
+    margin: 0;
+    background: none;
+    font-weight: 700;
+    color: black;
+    cursor: pointer;
+    padding: 0
+
+}
+
+
+
+.container-cadastro{
+    right: 120px;
+    top: 100px;
+    padding: 0;
+}
+.cadastro{
+    width: 400px;
+    background: white;
+    padding: 40px;
+    box-sizing: border-box;
+    overflow: hidden
+}
+input{
+    height: 45px;
+    background: #F4F4F4;
+    outline: none;
+    border: 2px solid #d9d9d9; 
+    font-size: 18px;
+    color: #86878A;
+    color: black;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+input:focus{
+    border: 2px solid black;
+}
+.input-black{
+    background: black;
+    color: white;
+    border: none
+}
+.input-black:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px black inset !important;
+    -webkit-text-fill-color: #86878A;
+}
+input[type='submit']{
+    height: 50px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    color: white;
+    background: black;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer
+}
+
+.input-submit{
+    width: 150px;
+    float: right;
+    margin: 0;
+    cursor: pointer
+}
+input[type="checkbox"] {
+    height: 20px;
+    background: #F4F4F4;
+    outline: none;
+    border: none; 
+    margin: auto;
+    width: 20px;
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    width: 350px;
+    height: 50px;
+    font-weight: 300;
+    border: none;
+    outline: none;
+    color: white;
+    background: black;
+    font-size: 18px;
+    text-align: center;
+    text-align: left
+}
+
+.cadastrofull{
+    padding-left: 350px;
+    margin: 0;
+    height: 100%;
+    position: relative;
+}
+.cadastrofull-imagem{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: -100px;
+    padding: 0;
+    text-align: center;
+    left: 40px
+}
+.backimagem{
+    width: 100%;
+    height: 300px;
+    background: white;
+    padding: 0px;
+    border: 10px solid white;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.imagem{
+    flex-shrink: 0;
+    width: 100%;
+}
+.backimagemAlterar{
+    display: none;
+    background: white
+}
+.cadastrofull-groups{
+    height: 85%;
+}
+/*.cadastrofull-groups input{
+    background: rgba(255,255,255,.6);
+}*/
+.cadastrofull-group1{
+    width: 50%;
+    display: inline-block;
+    margin: -2px;
+    padding: 40px;
+    vertical-align: top
+}
+.cadastrofull-subgroup1{
+    width: 50%
+}
+.cadastrofull-icones{
+    position: absolute;
+    top: -60px;
+    right: 40px;
+    height: 50px;
+    width: 400px;
+    padding: 0
+}
+.icone{
+
+}
+.icone-img{
+    height: 20px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.placeholder{
+    background: rgba(255,255,255,.6); 
+}
+.placeholder::placeholder{
+    background: rgba(255,255,255,.6);   
+    color: rgba(134,135,138, .8);
+}
+.select{
+    height: 45px;
+    outline: none;
+    border: 2px solid #d9d9d9;
+    font-size: 18px;
+    color: #86878A;
+    color: black;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.select-white{
+    height: 45px;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    margin: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid transparent
+}

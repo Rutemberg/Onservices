@@ -1,0 +1,86 @@
+ul{
+    padding: 0
+}
+.menu{
+    float: right;
+    height: 70px;
+    /*    color: #86878A;*/
+    font-size: 17px
+}
+.menu-item{
+    margin: 0;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    margin: 10px 0;
+    overflow: hidden;
+    border: 2px solid transparent;
+    text-transform: capitalize
+}
+.menu-item-icone{
+    height: 45px;
+    padding: 0 20px;
+}
+
+.menulateral{
+    left: 0;
+    top: 0;
+    padding-top: 110px;
+    width: 250px;
+    width: 60px;
+    height: 100%;
+    overflow: hidden;
+}
+.menulateral-item{
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    color: white;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    margin: 5px 0;
+}
+.menulateral-item-icone{
+    float: left;
+    width: 30px;
+    margin: 10px 10px;
+    margin-right: 20px;
+}
+.sessaousuario{
+    right: 0;
+    width: 250px;
+    height: 100%;
+    box-shadow: inset 0 0 0 3000px rgba(23,23,23,0.95);
+    overflow: hidden;
+    transform: translateX(100%);
+}
+.sessaousuario-img{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%
+}
+
+
+.minhasopcoes{
+    text-align: center
+}
+.opcoes{
+    display: inline-block;
+    width: max-content;
+    min-width: 170px;
+    max-width: 550px;
+    height: 180px;
+    background: black;
+    overflow: hidden;
+    position: relative;
+    color: white;
+    border: 2px solid transparent
+}
+.opcoes img{
+    display: inline-block;
+    width: auto;
+    height: 60px;
+}
